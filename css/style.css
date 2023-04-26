@@ -1,0 +1,49 @@
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgba(116, 199, 255, 0.692);
+    font-family: sans-serif;
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.navbar {
+    width: 100vw;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    background: rgb(245, 253, 255);
+}
+
+.navbar>div {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(245, 253, 255);
+}
+
+.navLinks {
+    display: flex;
+}
+
+.navLinks div {
+    margin-left: 10px;
+}
+
+.navLinks div:hover a {
+    color: rgba(116, 199, 255, 0.692);
+    border-bottom: 5px solid rgba(116, 199, 255, 0.692);
+}
+
+.navLinks a {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
