@@ -1,46 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar">
-        <div>
-            <div class="logo">
-                DESPESAS
-            </div>
-            <div class="navLinks">
-                <div><a href="">LINK1</a></div>
-                <div><a href="">LINK2</a></div>
-                <div><a href="">LINK3</a></div>
-                <div><a href="">LINK4</a></div>
-            </div>
+      <div>
+        <div class="logo">STUDY</div>
+        <div class="navLinks">
+          <div><a href="">LINK1</a></div>
+          <div><a href="">LINK2</a></div>
+          <div><a href="">LINK3</a></div>
+          <div><a href="">LINK4</a></div>
         </div>
+      </div>
     </nav>
     <div class="container">
-        <div>
-            <h1>
-                BEM VINDO
-            </h1>
-            <table class="despesas">
-                <tr>
-                    <th>Registro de despesas</th>
-                </tr>
-            </table>
-        </div>
-        <div class="registrar-despesa">
-            <h2>Registrar Despesa</h2>
-            <input type="text" placeholder="nome da despesa">
-            <textarea name="desc" id="descricao" cols="30" rows="10" placeholder="Descrição"></textarea>
-            <input type="submit" value="Registrar">
-        </div>
+      <div class="left">
+        <table>
+          <thead>
+            <tr>
+              <th>Head 1</th>
+              <th>Head 2</th>
+              <th>Head 3</th>
+              <th>Head 4</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3">Column 1</td>
+              <td rowspan="3">Column 1</td>
+            </tr>
+            <tr>
+              <td>Column 4</td>
+              <td>Column 4</td>
+            </tr>
+            <tr>
+              <td>Column 4</td>
+              <td>Column 4</td>
+            </tr>
+            <tr>
+              <td>Column 1</td>
+              <td>Column 2</td>
+              <td>Column 3</td>
+              <td>Column 4</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="left">
+        <img src="./assets/img/3.jpg" alt="img" id="img" />
+      </div>
     </div>
-</body>
-
+    <script src="./js/app.js"></script>
+  </body>
 </html>

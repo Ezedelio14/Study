@@ -25,6 +25,7 @@ body {
 .navbar>div {
     width: 90%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     background: rgb(245, 253, 255);
 }
@@ -46,4 +47,33 @@ body {
     color: black;
     font-weight: bolder;
     text-decoration: none;
+}
+
+
+.container {
+    margin-top: 7rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    margin-right: 7rem;border-radius:5px;
+}
+
+table {
+    width: 30rem;
+    height: 20rem;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px solid white;
+}
+
+img {
+    width: 30rem;
+    height: 20rem;border-radius:5px;
 }
